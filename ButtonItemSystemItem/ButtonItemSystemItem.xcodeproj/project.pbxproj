@@ -15,6 +15,7 @@
 		F99A75FF24E380D1006B66C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99A75FD24E380D1006B66C3 /* LaunchScreen.storyboard */; };
 		F99A760A24E380D1006B66C3 /* ButtonItemSystemItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A760924E380D1006B66C3 /* ButtonItemSystemItemTests.swift */; };
 		F99A761524E380D1006B66C3 /* ButtonItemSystemItemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A761424E380D1006B66C3 /* ButtonItemSystemItemUITests.swift */; };
+		F99A762324E38179006B66C3 /* UIBarButtonItem.SystemItem+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A762224E38179006B66C3 /* UIBarButtonItem.SystemItem+extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F99A761024E380D1006B66C3 /* ButtonItemSystemItemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonItemSystemItemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99A761424E380D1006B66C3 /* ButtonItemSystemItemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonItemSystemItemUITests.swift; sourceTree = "<group>"; };
 		F99A761624E380D1006B66C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99A762224E38179006B66C3 /* UIBarButtonItem.SystemItem+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem.SystemItem+extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F99A75FB24E380D1006B66C3 /* Assets.xcassets */,
 				F99A75FD24E380D1006B66C3 /* LaunchScreen.storyboard */,
 				F99A760024E380D1006B66C3 /* Info.plist */,
+				F99A762224E38179006B66C3 /* UIBarButtonItem.SystemItem+extention.swift */,
 			);
 			path = ButtonItemSystemItem;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				F99A75F724E380D0006B66C3 /* ViewController.swift in Sources */,
 				F99A75F324E380D0006B66C3 /* AppDelegate.swift in Sources */,
+				F99A762324E38179006B66C3 /* UIBarButtonItem.SystemItem+extention.swift in Sources */,
 				F99A75F524E380D0006B66C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
